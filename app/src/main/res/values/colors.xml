@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2979ff</color>
+    <color name="colorPrimaryDark">#004ecb</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="card_linear">#1E88E5</color>
+    <color name="card_areas">#607D8B</color>
+    <color name="card_equipo">#673AB7</color>
+    <color name="card_login">#009688</color>
+    <color name="card_local">#795548</color>
+
+    <color name="contrastcard_linear">#1976D2</color>
+    <color name="contrastcard_areas">#546E7A</color>
+    <color name="contrastcard_equipo">#512DA8</color>
+    <color name="contrastcard_login">#00796B</color>
+    <color name="contrastcard_local">#5D4037</color>
+
+
+    <color name="trasparent_cardlinear">#531E88E5</color>
+    <color name="transparent_areasCard">#53607D8B</color>
+    <color name="trasnparent_cardequipo">#53673AB7</color>
+    <color name="trasnparent_card_login">#53009688</color>
+    <color name="trasnparent_card_local">#53795548</color>
+
+    <color name="bachgroundtext_card">#53292929</color>
+
+    <color name="editTextColorWhite">#FFFFFF</color>
+    <color name="editTextColorBlack">#000000</color>
+</resources>

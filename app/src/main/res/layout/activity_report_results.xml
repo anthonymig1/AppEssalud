@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ReportResultsActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Colesterol"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/EditTextBlack"
+                    android:layout_marginTop="@dimen/edittex_margin_results"
+
+                    >
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/colesterol"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="mg/dL"
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Trigliceridos"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/EditTextBlack"
+                    android:layout_marginTop="@dimen/edittex_margin_results"
+
+                    >
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/trigliceridos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="mg/dL"
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="LDL"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/EditTextBlack"
+                    android:layout_marginTop="@dimen/edittex_margin_results"
+
+                    >
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/ldl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="mg/dL"
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="HDL"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/EditTextBlack"
+                    android:layout_marginTop="@dimen/edittex_margin_results"
+
+                    >
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/hdl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="mg/dL"
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Glucosa"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/EditTextBlack"
+                    android:layout_marginTop="@dimen/edittex_margin_results"
+
+                    >
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/glucosa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="mg/dL"
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Glucosa Postprondial"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/EditTextBlack"
+                    android:layout_marginTop="@dimen/edittex_margin_results"
+
+                    >
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/glucosap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="mg/dL"
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Urea"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/EditTextBlack"
+                    android:layout_marginTop="@dimen/edittex_margin_results"
+
+                    >
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/urea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="mg/dL"
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Creatinina"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/EditTextBlack"
+                    android:layout_marginTop="@dimen/edittex_margin_results"
+
+                    >
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/Creatininal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="mg/dL"
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Microalbuminuria"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/EditTextBlack"
+                    android:layout_marginTop="@dimen/edittex_margin_results"
+
+                    >
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/microalbuminuria"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        />
+                </android.support.design.widget.TextInputLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="mg/dL"
+                    android:paddingTop="36dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="@dimen/edittext_textsize_login"
+
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/saveResults"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_button_saveResults"
+                android:theme="@style/RaiseButtonDark"
+                />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
