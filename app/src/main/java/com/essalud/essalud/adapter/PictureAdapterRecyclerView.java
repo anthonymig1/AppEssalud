@@ -27,6 +27,7 @@ public class PictureAdapterRecyclerView extends RecyclerView.Adapter<PictureAdap
     private ArrayList<Picture> pictures;
     private int resource;
     private Activity activity;
+    
 
     public PictureAdapterRecyclerView(ArrayList<Picture> pictures, int resource, Activity activity) {
         this.pictures = pictures;
